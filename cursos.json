@@ -18,5 +18,10 @@
         "name": "Cerámica Experimental",
         "code": "ARO101E",
         "about": "En este curso el estudiante realizará el proceso completo del trabajo con cerámica desde un enfoque experimental, a partir de la preparación de colores, cubiertas vítreas y pastas, la invención de métodos y procedimientos no tradicionales y el trabajo con diversos sistemas de construcción que le permitan formular propuestas creativas y que respondan a las inquietudes personales de cada uno."
+    },
+    {
+        "name": "Taller de Reportaje Fotografico",
+        "code": "COM004",
+        "about": "Comprender y dominar los principios del lenguaje de un reportaje fotográfico. Conocer y aplicar los principios de la edición fotográfica, y aprender a integrar texto e imagen. Conocer los principales hitos de la fotografía y el reportaje fotográfico a través de la historia. Conocer las principales tendencias del reportaje fotográfico en la actualidad."
     }
 ]
