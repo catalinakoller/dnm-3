@@ -22,21 +22,18 @@
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js" integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
-            // Cursos que me gustaría tomar y nunca podré
-            var data, datosArreglados; 
-            function preload(){
-                data = loadJSON("https://raw.githubusercontent.com/catalinakoller/dnm-3/main/cursos.json");
-            }
-
-            // En esta ocasión no necesito un canvas 
-            // Lo que sí necesito una lista de definición por cada ítem en el arreglo contenido por la variable de nombre data
+            var h, s;
             function setup() {
-                noCanvas();
-                datosArreglados = Object.values(data);
-                console.log(data);
-                datosArreglados.forEach((x) => {
-                    createElement("dl", "<dt>" + x.name + " (" + x.code + ")</dt><dd>" + x.about + "</dd>").parent("aqui");
-                });
+                createCanvas(windowWidth, windowHeight).position(0, 0).style("z-index", "-1");
+            }
+            function draw() {
+                colorMode(HSB, 360, 100, 100);
+                h = map(mouseX, 0, windowWidth, 0, 360);
+                s = map(mouseY, 0, windowHeight, 100, 0);
+                background(h, s, 55);
+            }
+            function windowResized() {
+                resizeCanvas(windowWidth, windowHeight);
             }
         </script>
     </body>
