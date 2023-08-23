@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Serigrafía",
+        "code": "ARO105G",
+        "about": "En este curso los estudiantes aprenderán la técnica de la serigrafía y su aplicación en el campo de las artes visuales. Desarrollarán una propuesta creativa a partir de la construcción de matrices directas e indirectas que permitirán la reproducción múltiple de una imagen sobre distintos soportes."
+    },
+    {
+        "name": "Fotografía Análoga",
+        "code": "ARO102F",
+        "about": "En este curso los estudiantes conocerán la evolución histórica de la fotografía, el manejo de la cámara fotográfica análoga, los procesos de laboratorio blanco y negro y adquirirán herramientas para la intervención y manipulación de la imagen fotográfica, explorando una amplia gama de posibilidades expresivas."
+    },
+    {
+        "name": "Escultura en Acero",
+        "code": "ARO102E",
+        "about": "En este curso el estudiante adquirirá conocimientos y técnicas para la manipulación del acero, habilidades que le permitirán elaborar proyectos escultóricos mediante el uso de este material."
+    },
+    {
+        "name": "Cerámica Experimental",
+        "code": "ARO101E",
+        "about": "En este curso el estudiante realizará el proceso completo del trabajo con cerámica desde un enfoque experimental, a partir de la preparación de colores, cubiertas vítreas y pastas, la invención de métodos y procedimientos no tradicionales y el trabajo con diversos sistemas de construcción que le permitan formular propuestas creativas y que respondan a las inquietudes personales de cada uno."
+    }
+]
